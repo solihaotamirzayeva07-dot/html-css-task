@@ -1,0 +1,54 @@
+css
+body{
+    background-color:green;
+    color: blue;
+    font-size: 14px;
+    font-family:'arial', sans-serif;
+    padding: 20px;
+}
+    content-container{
+        background-color: white;
+        padding: 20px;
+        margin-bottom: 30px;
+        border-radius: 8px;
+        max-width: 400px;
+    }
+        list-title{
+            font-size: 18px;
+            font-weight: bold;
+             }
+             bold-text{ font-weight: bold; }
+             red-text{color:red;}
+             green-text {color:green;}
+             center-form{
+                background-color: white
+                padding: 25px;
+                max-width: 350px;
+                margin: 0 auto;
+                border-radius: 8px;
+             }
+                form-title{
+                    font-size: 18px;
+                    font-weight: bold;
+                    color: #333;
+                }
+
+        center-form input{
+            width: 100%;
+            padding: 10px;
+            margin-: 10px 0;
+            box-sizing: border-box;
+            border: 1px solid gray;
+            border-radius: 4px;
+        }
+        center-form button {
+            width:auto
+            background-color: green;
+            color: white;
+            padding: 12px;
+            border: none;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 10px;
+            cursor: pointer;
+        }
